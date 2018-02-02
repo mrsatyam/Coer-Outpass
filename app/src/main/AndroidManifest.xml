@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hpm.Coer_e_Outpass">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Coer-&apos;e&apos;-Outpass "
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar">
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Registration Page" />
+        <activity
+            android:name=".StudentLoginActivity"
+            android:banner="@color/colorPrimaryDark"
+            android:label="Login Page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".WelcomePage"
+            android:label="Welcome Page" />
+        <activity android:name=".FillOutpass" />
+        <activity android:name=".SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.adcolony.sdk.AdColonyInterstitialActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"/>
+
+        <activity android:name="com.adcolony.sdk.AdColonyAdViewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="true"/>
+        <activity
+            android:name=".WardenPage"
+            android:label="Warden Page" />
+        <activity
+            android:name=".StartPageActivity"
+            android:banner="@color/colorPrimaryDark"
+            android:label="Start Page"></activity>
+        <activity android:name=".GameActivity"></activity>
+    </application>
+
+</manifest>

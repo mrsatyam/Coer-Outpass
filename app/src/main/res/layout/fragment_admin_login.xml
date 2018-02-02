@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.hpm.Coer_e_Outpass.AdminLoginFragment"
+    android:background="@drawable/colored_bg">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:hint="Email"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="200dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginEnd="35dp"
+            android:id="@+id/adminEmailEt"
+            android:textColorHint="@color/black"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_edittext"
+            android:layout_marginTop="30dp"
+            android:layout_marginStart="35dp"
+            android:layout_marginLeft="35dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginEnd="35dp"
+            android:paddingLeft="10dp"
+            android:hint="Password"
+            android:id="@+id/adminPasswordEt"
+            android:textColorHint="@color/black"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:background="@drawable/button_focused"
+            android:layout_marginLeft="140dp"
+            android:layout_marginTop="30dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+
+
+            android:id="@+id/button3" />
+        <TextView
+            android:id="@+id/gametv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Game"
+            android:background="@drawable/button_shape2"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="80dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"/>
+
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

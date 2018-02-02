@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:paddingLeft="0dp"
+    android:paddingRight="0dp"
+    android:background="@drawable/background_image"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hpm.Coer_e_Outpass.StudentLoginActivity"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6094042633128083/8803461010">
+        </com.google.android.gms.ads.AdView>
+        <com.google.android.gms.ads.AdView
+            android:id="@+id/adView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginBottom="10dp"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-6094042633128083/5574021810">
+        </com.google.android.gms.ads.AdView>
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:src="@drawable/coer_logo"
+            android:id="@+id/imageView2"
+            android:layout_weight="1"
+            android:layout_marginBottom="30dp"
+            />
+
+        <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/etlemail"
+        android:layout_weight=".5"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rounded_edittext"
+        android:hint="Email"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/etlpass"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:hint="Password"
+        android:layout_weight=".5"
+
+        android:inputType="textPassword"
+        android:layout_marginTop="27dp"
+        android:background="@drawable/rounded_edittext"
+        android:textColorHint="@color/common_google_signin_btn_text_dark_focused"
+        />
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="number"
+                    android:ems="10"
+                    android:id="@+id/etlid"
+                    android:hint="Coer Id"
+                    android:layout_weight=".5"
+
+                    android:paddingStart="10dp"
+                    android:paddingLeft="10dp"
+                    android:background="@drawable/rounded_edittext"
+                    android:layout_marginTop="26dp"
+                    android:textColorHint="@color/common_google_signin_btn_text_dark_focused" />
+
+                <Button
+                    android:text="Login"
+                    android:textColor="@android:color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/loginbutton"
+                    android:layout_marginLeft="150dp"
+                    android:layout_marginStart="150dp"
+                    android:background="@drawable/button_shape2"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight=".5"
+
+
+                    />
+
+
+
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not Registered ?"
+        android:textSize="18sp"
+        android:id="@+id/textView2"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginStart="130dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Register here"
+                    android:layout_marginLeft="130dp"
+                    android:layout_marginStart="135dp"
+                    android:textColor="@color/black"
+                    android:textSize="18sp"
+                    android:id="@+id/tvlregister"
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginRight="24dp"
+                    android:layout_marginEnd="24dp" />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>
+

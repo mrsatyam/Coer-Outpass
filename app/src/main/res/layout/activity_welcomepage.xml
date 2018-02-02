@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_fill_outpass"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="0dp"
+    android:orientation="vertical"
+    android:background="@drawable/background_image"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="10dp"
+    tools:context="com.example.hpm.Coer_e_Outpass.WelcomePage">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tv"
+            android:textSize="24sp"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/holo_green_dark"
+
+            android:text="Welcome"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvwelcome"
+            android:textStyle="normal|bold"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="22sp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="14dp"
+            android:layout_marginStart="14dp" />
+    </LinearLayout>
+
+
+    <TextView
+        android:text="Please fill the outpass  details :"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView8"
+        android:layout_marginTop="14dp"
+        android:textSize="18sp"
+        android:textColor="@android:color/black"
+        android:textStyle="normal|bold" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/etwid"
+        android:hint="Enter Coer id"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rectangular_edittext"
+        android:inputType="number"
+        android:layout_marginTop="14dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etwname"
+        android:background="@drawable/rectangular_edittext"
+        android:hint="Enter name "
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="12dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/etwroom_no"
+        android:hint="Enter room no."
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:inputType="number"
+        android:background="@drawable/rectangular_edittext"
+        android:layout_marginTop="13dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etwplace"
+        android:textSize="18sp"
+        android:fontFamily="sans-serif"
+        android:hint="Enter place "
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="13dp"
+        android:background="@drawable/rectangular_edittext" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:background="@drawable/rectangular_edittext"
+        android:ems="10"
+        android:id="@+id/etwpurpose"
+        android:hint="Enter purpose of outing"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="13dp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etwbhawan"
+        android:hint="Enter bhawan name"
+        android:paddingStart="10dp"
+        android:paddingLeft="10dp"
+        android:background="@drawable/rectangular_edittext"
+        android:layout_marginTop="13dp"
+
+        />
+
+    <TextView
+        android:text="Select in time :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape2"
+        android:id="@+id/time_to"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        android:layout_marginTop="13dp"
+
+        />
+    <TextView
+        android:text="Select out time :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/time_from"
+        android:background="@drawable/button_shape2"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="13dp" />
+
+    <TextView
+        android:text="Choose date :"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_shape2"
+        android:id="@+id/choose_date"
+        android:textSize="18sp"
+        android:layout_marginTop="13dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <Button
+
+        android:text="Fill Outpass   "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btwsubmit"
+        android:background="@drawable/button_shape3"
+        android:layout_marginRight="36dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginStart="100dp"
+        android:paddingStart="18dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="18dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@android:drawable/ic_lock_power_off"
+        android:id="@+id/logoutbutton"
+        android:layout_marginStart="20dp"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginTop="22dp"
+        android:layout_marginLeft="20dp" />
+    <TextView
+        android:text="Logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textStyle="normal|bold"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp" />
+
+
+</LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+
+
+

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "301944236503",
+    "firebase_url": "https://coeroutpass.firebaseio.com",
+    "project_id": "coeroutpass",
+    "storage_bucket": "coeroutpass.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301944236503:android:febc0dd351d888da",
+        "android_client_info": {
+          "package_name": "com.example.hpm.knowyourcustomer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "301944236503-uignt5pvg2mh5hll0emmk0eh60mqgv95.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.hpm.knowyourcustomer",
+            "certificate_hash": "9caf4084e46c7ace9067e4a4579f295da785a9c9"
+          }
+        },
+        {
+          "client_id": "301944236503-v6r863bl7nvdg29o9ggifvrc3926avv8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0ueIc0vgSIOiideu9vYNnPqRp2zhrj6o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "301944236503-v6r863bl7nvdg29o9ggifvrc3926avv8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
